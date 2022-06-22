@@ -1,0 +1,527 @@
+body {
+    background: #FFFFFF;
+    position: relative;
+    height: 100%;
+    min-height:1457px;
+    }
+@font-face{
+    font-family: "FRACTAL";
+    src: url("font/FRACTAL.ttf") format("truetype");
+}
+#header{
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    max-height: 102px;
+}
+.field{
+    box-sizing: border-box;
+    position: absolute;
+    width: 384px;
+    height: 50px;
+    left: 360px;
+    top: 181px;
+    border: 1px solid #E3E4E8;
+    border-radius: 4px;
+}
+.searchproj{
+    position: absolute;
+    width: 149px;
+    height: 18px;
+    font-family: 'FRACTAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #72778E;
+    text-align: center;
+}
+.search{
+    position: absolute;
+    left: 346px;
+    top: 15px;
+}
+.field1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    left: 768px;
+    top: 181px;
+    border: 1px solid #E3E4E8;
+    border-radius: 4px;
+}
+.team{
+    position: absolute;
+    width: 70px;
+    height: 18px;
+    left: 5px;
+    font-family: 'FRACTAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #72778E;
+    text-align: center;
+}
+.vector{
+    position: absolute;
+    left: 150.76px;
+    top: 22.34px;
+}
+.field2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 282px;
+    height: 50px;
+    left: 972px;
+    top: 181px;
+    border: 1px solid #E3E4E8;
+    border-radius: 4px;
+}
+.status{
+    position: absolute;
+    width: 70.5px;
+    height: 18px;
+    left: 12.12px;
+    font-family: 'FRACTAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #72778E;
+
+}
+.vector1{
+    position: absolute;
+    left: 247.76px;
+    top: 22.34px;
+}
+.field3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 282px;
+    height: 50px;
+    left: 1278px;
+    top: 181px;
+    background: #FFFFFF;
+    border: 1px solid #E3E4E8;
+    border-radius: 4px;
+}
+#downline{
+   
+    position: absolute;
+    width: 1920px;
+    height: 64px;
+    left: 0px;
+    bottom: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px -16px 120px #F8F8F8;
+}
+#itc{
+    position: absolute;
+    left: 821px;
+    bottom: 14px;
+    font-family: 'FRACTAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #72778E;
+}
+.date{
+    position: absolute;
+    left: 16px;
+    font-family: 'FRACTAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #72778E;
+}
+.date1{
+    position: absolute;
+    left: 244px;
+    top: 14px;
+}
+.box{  
+    box-sizing: border-box;
+    position: absolute;
+    width: 282px;
+    height: 326px;
+    left: 360px;
+    top: 277px;
+    background: #FFFFFF;
+    border: 1px solid #E3E4E8;
+    box-shadow: 0px 0px 120px #F8F8F8;
+    border-radius: 5px;
+}
+.add{
+    position: absolute;
+    width: 135px;
+    height: 18px;
+    left: 74px;
+    top: 242px;
+    font-family: 'FRACTAL';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #72778E;
+}
+
+#added{
+    position: absolute;
+    padding: 40px;
+    left: 103px;
+    top: 104px;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+}
+.orange{
+    position: absolute;
+    width: 180px;
+    height: 10px;
+    left: 24px;
+    top: 0px;
+    background: #FF4D00;
+    box-shadow: 0px 4px 35px rgba(114, 119, 142, 0.3);
+    position: absolute;
+    border-radius: 0px 0px 20px 20px;  
+}
+.purple{
+    position: absolute;
+    width: 180px;
+    height: 10px;
+    left: 24px;
+    top: 0px;
+    background: #673CE0;;
+    box-shadow: 0px 4px 35px rgba(114, 119, 142, 0.3);
+    position: absolute;
+    border-radius: 0px 0px 20px 20px; 
+}
+.biryuz{
+    position: absolute;
+    width: 180px;
+    height: 10px;
+    left: 24px;
+    top: 0px;
+    background: #0CB6DC;
+    box-shadow: 0px 4px 35px rgba(114, 119, 142, 0.3);
+    position: absolute;
+    border-radius: 0px 0px 20px 20px; 
+}
+.green{
+    position: absolute;
+    width: 180px;
+    height: 10px;
+    left: 24px;
+    top: 0px;
+    background: #00D43B;
+    box-shadow: 0px 4px 35px rgba(114, 119, 142, 0.3);
+    position: absolute;
+    border-radius: 0px 0px 20px 20px;   
+}
+.gray1{
+    position: absolute;
+    width: 180px;
+    height: 10px;
+    left: 24px;
+    top: 0px;
+    background:#72778E;
+    box-shadow: 0px 4px 35px rgba(114, 119, 142, 0.3);
+    position: absolute;
+    border-radius: 0px 0px 20px 20px;  
+}
+
+.box2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 282px;
+    height: 326px;
+    left: 666px;
+    top: 277px;
+    background: #FFFFFF;
+    border: 1px solid #E3E4E8;
+    box-shadow: 0px 0px 120px #F8F8F8;
+    border-radius: 5px;
+}
+.box3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 282px;
+    height: 326px;
+    left: 972px;
+    top: 277px;
+    background: #FFFFFF;
+    border: 1px solid #E3E4E8;
+    box-shadow: 0px 0px 120px #F8F8F8;
+    border-radius: 5px; 
+}
+.box4{
+    box-sizing: border-box;
+    position: absolute;
+    width: 282px;
+    height: 326px;
+    left: 1278px;
+    top: 277px;
+    background: #FFFFFF;
+    border: 1px solid #E3E4E8;
+    box-shadow: 0px 0px 120px #F8F8F8;
+    border-radius: 5px;   
+}
+.box5{
+    box-sizing: border-box;
+    position: absolute;
+    width: 282px;
+    height: 326px;
+    left: 360px;
+    top: 635px;
+    background: #FFFFFF;
+    border: 1px solid #E3E4E8;
+    box-shadow: 0px 0px 120px #F8F8F8;
+    border-radius: 5px;  
+}
+.box6{
+    box-sizing: border-box;
+    position: absolute;
+    width: 282px;
+    height: 326px;
+    left: 666px;
+    top: 635px;
+    background: #FFFFFF;
+    border: 1px solid #E3E4E8;
+    box-shadow: 0px 0px 120px #F8F8F8;
+    border-radius: 5px;  
+}
+.box7{
+    box-sizing: border-box;
+    position: absolute;
+    width: 282px;
+    height: 326px;
+    left: 972px;
+    top: 635px;
+    background: #FFFFFF;
+    border: 1px solid #E3E4E8;
+    box-shadow: 0px 0px 120px #F8F8F8;
+    border-radius: 5px;  
+}
+.box8{
+    box-sizing: border-box;
+    position: absolute;
+    width: 282px;
+    height: 326px;
+    left: 1278px;
+    top: 635px;
+    background: #FFFFFF;
+    border: 1px solid #E3E4E8;
+    box-shadow: 0px 0px 120px #F8F8F8;
+    border-radius: 5px;  
+}
+.box9{
+    box-sizing: border-box;
+    position: absolute;
+    width: 282px;
+    height: 326px;
+    left: 360px;
+    top: 993px;
+    background: #FFFFFF;
+    border: 1px solid #E3E4E8;
+    box-shadow: 0px 0px 120px #F8F8F8;
+    border-radius: 5px;  
+}
+.mertv{
+    position: absolute;
+    font-family: 'FRACTAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #72778E;
+    left: 24px;
+    top: 10px;
+}
+.analiz{
+    position: absolute;
+    font-family: 'FRACTAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FF4D00;
+    left: 24px;
+    top: 10px;
+}
+.razrab{
+    position: absolute;
+    font-family: 'FRACTAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #0CB6DC;
+    left: 24px;
+    top: 10px;
+}
+.dizain{
+    position: absolute;
+    font-family: 'FRACTAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #673CE0;
+    left: 24px;
+    top: 10px;
+}
+.green1{
+    position: absolute;
+    font-family: 'FRACTAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #00D43B;
+    left: 24px;
+    top: 10px;
+}
+.gray{
+    position: absolute;
+    font-family: 'FRACTAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #72778E;
+    left: 24px;
+    top: 10px;
+}
+.projectname{
+   
+    position: absolute;
+    width: 234px;
+    height: 46px;
+    left: 24px;
+    top: 56px;
+    font-family: 'FRACTAL';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #0D122D;
+}
+.opisanie{
+    position: absolute;
+    width: 234px;
+    height: 48px;
+    left: 24px;
+    top: 110px;
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #72778E;
+}
+.mini-box{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    position: absolute;
+    width: 129px;
+    height: 34px;
+    left: 24px;
+    top: 194px;
+    border: 1px solid #E3E4E8;
+    border-radius: 93px;
+}
+.team-design{
+    width: 97px;
+    height: 18px;
+    left: 40px;
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #0D122D;
+}
+
+.mini-box2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    position: absolute;
+    width: 86px;
+    height: 34px;
+    left: 161px;
+    top: 194px;
+    border: 1px solid #E3E4E8;
+    border-radius: 93px;
+}
+.mini-box3{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    left: 25px;
+    top: 236px;
+    border: 1px solid #E3E4E8;
+    border-radius: 93px;
+}
+.mini-box4{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    left: 132px;
+    top: 236px;
+    border: 1px solid #E3E4E8;
+    border-radius: 93px;
+}
+.podrobnee{
+    position: absolute;
+    width: 79px;
+    height: 16px;
+    left: 24px;
+    top: 286px;
+    font-family: 'FRACTAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #E3E4E8;
+}
+.team2{
+    width: 54px;
+    height: 18px;
+    font-family: 'FRACTAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;   
+    color: #0D122D;
+    flex: none;
+    order: 0;
+    flex-grow: 0
+}
